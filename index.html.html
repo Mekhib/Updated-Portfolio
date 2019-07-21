@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body id="body">
+    <div class="NavContainer">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#" style="color:pink">Quick Jump</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" class="navtext" style="color:pink" id="back">Name and Title<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" class="navtext" style="color:pink" id="2">Portfolio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style="color:pink" id="3">Conatct</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div id="about" style="display:none">
+        <div id="blur">
+            <h1>About me</h1>
+            <img id="headpic" src="https://lh3.googleusercontent.com/suAaZQMbgVZgcHyV0O-IElkh8P6QQfKK3kNfpBjfQYBpmLaLKdrYEDlPfIvSHDA78eRYPVjh88UarDZApvL_jl04nUvK8alp6JHIUfR4NHVVLOc1G0Dpf2RLX2A3HHpcR9FXwQ3s3lg=w2400">
+            <p><strong>software. I love the complex intricacies of code and the fluidity of an optimized UI. I have always been fascinated with how the hardware of a computer interacts with its software and vise versa. I’ve been told on countless occasions that
+            I should narrow my area of study from the relatively broad computer science to something more refined and specific. To me, however, having a degree with such a broad range of applications and knowledge of coding languages in a world where
+            technology is rapidly changing is more valuable than ever before. I have extremely high ambitions for myself. My dream occupation is to be Chief Executive Officer of the Microsoft. Bill Gates is someone I look up to, not just because of his
+            phenomenal philanthropy work, but because he, along with Paul Allen created the best computing operating system on the planet with windows, dominated the productivity space with Microsoft Office and Powerpoint and helped shaped computing as
+            we know it. The other person I look up to is Satya Nadella. His work in cloud computing is legendary and I love how he rejuvenated Microsoft with new, innovate hardware and software. He managed to become CEO of Microsoft with his masters in
+            Computer Science and that gives me hope that I could do the same. My friends and family support my technology endeavors, yet they do not understand why I choose a field in technology, as opposed to something like a doctor. I always tell them
+            the same thing: I can save a life with a scalpel by creating the technology used to power the surgery. It’s not about what you learn, it's about what you do with it that makes the difference.</strong></p>
+        </div>
+    </div>
+    <div class="jumbotron" id="jumbotron">
+        <div id="info">
+            <div class="weatherp"></div>
+            <div class="weather"></div>
+            <div class="weather1"></div>
+            <div class="weather2"></div>
+            <div class="weather3"></div>
+        </div>
+        <h1 class="display-4">Mekhi Brodie</h1>
+        <p class="lead">junior software developer | Aspiring CEO | Pro Sarcasm </p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button" id="hidden">about me</a>
+    </div>
+    <div class="body1">
+        <div id="header">
+            <h1 id="title">Portfolio</h1>
+        </div>
+        <div class="port">
+            <div class="card" style="width: 18rem;" id="cards">
+                <img src="https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif?w=730&crop=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gify Solution</h5>
+                    <p class="card-text">This is a simple website desined to quickly display gifs in gif and non-gif form. Simple Ajax calls are used to bring up gifs in a bootstrap-styled layout. Click the button to view the live webpage.</p>
+                    <a href="https://github.com/Mekhib" class="btn btn-primary" id="button">Go to Github</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;" id="cards">
+                <img src="https://vignette.wikia.nocookie.net/reckoning/images/7/74/Gems.jpg/revision/latest?cb=20150519031558" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gem-ini</h5>
+                    <p class="card-text">A guessing game with gems that Utilizes the Jquery libary to create a simple guessing game. Click the button to view the live webpage.</p>
+                    <a href="https://github.com/Mekhib" class="btn btn-primary" id="button">Go to github</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;" id="cards">
+                <img src="https://oceanwp.org/wp-content/uploads/2017/07/portfolio-image.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Oh, look how far we've come!</h5>
+                    <p class="card-text">This is my orginal portfolio, before I honed in my skills. Clearly my eye for design has improved! This updated design relies on bootstap and css elemnts, and a lil bit of JS(Check out the weather above!) Click to go back in time!</p>
+                    <a href="https://github.com/Mekhib" class="btn btn-primary" id="button">Go to Github</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;" id="cards">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/City_of_Rockhampton_train_%28Sunshine_railway_station%2C_Brisbane%29.jpg/350px-City_of_Rockhampton_train_%28Sunshine_railway_station%2C_Brisbane%29.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cho-Cho</h5>
+                    <p class="card-text">This Train app is designed to show-case firease knowlede. info is stored in firebase, and then is put back in when updated. Click to pay your fare.</p>
+                    <a href="https://github.com/Mekhib" class="btn btn-primary" id="button">Go to github</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;" id="cards">
+                <img src="https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif?w=730&crop=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gify Solution(orginal)</h5>
+                    <p class="card-text">It didnt always look that nice! Click the button to view the live webpage.</p>
+                    <a href="https://github.com/Mekhib" class="btn btn-primary" id="button">Go to github</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="jumbotron" style="background-image: url(http://creativecrunk.com/wp-content/uploads/2015/01/Business-Card-Mock-Up-Vol20.jpg)">
+        <div class="container">
+            <div id="title2">
+                <h1>Contact me!</h1>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                    <small id="emailHelp" class="form-text text-muted">We'll be in touch!</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Your email will only be used with your permisson</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Company</label>
+                    <input type="company" class="form-control" id="exampleInputPassword1" placeholder="company">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Follow up with more information</label>
+                </div>
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script>
+    $("#submit").on("click", function() {
+        alert("Thank you! I hope we'll be in touch soon!");
+    });
+    $("#hidden").on("click", function() {
+        $("#jumbotron").hide();
+        $("#about").show();
+
+    });
+    $("#back").click(function() {
+        $("#about").hide();
+        $("#jumbotron").show();
+    });
+    $("#2").click(function() {
+        $('html,body').animate({
+                scrollTop: $(".port").offset().top
+            },
+            'slow');
+    });
+    $("#3").click(function() {
+        $('html,body').animate({
+                scrollTop: $("#title2").offset().top
+            },
+            'slow');
+    });
+</script>
+
+</html>
