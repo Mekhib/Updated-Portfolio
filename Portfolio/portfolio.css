@@ -1,0 +1,131 @@
+.navtext {
+    color: pink;
+}
+
+.NavContainer {
+    color: pink;
+}
+
+.navbar-brand {
+    color: pink;
+}
+
+#jumbotron {
+    background-image: url("https://wallpapercave.com/wp/wp3854963.jpg");
+    color: pink;
+}
+
+.weather {
+    position: relative;
+}
+
+.weather1 {
+    position: relative;
+}
+
+.weather2 {
+    position: relative;
+}
+
+.weather3 {
+    position: relative;
+}
+
+.weatherp {
+    position: relative;
+}
+
+#info {
+    float: right;
+}
+
+#body {
+    background-color: #343a40
+}
+
+.card {
+    margin: 40px;
+    position: relative;
+    background-color: lightpink;
+    border: 3px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    border-color: pink;
+}
+
+.contact {
+    width: 40%;
+    height: 40%;
+    background-image: url("http://creativecrunk.com/wp-content/uploads/2015/01/Business-Card-Mock-Up-Vol20.jpg");
+    margin: 3%;
+    padding: 5%;
+}
+
+.port {
+    display: flex;
+    margin-top: -3px;
+}
+
+#contact2 {
+    background-image: url("http://creativecrunk.com/wp-content/uploads/2015/01/Business-Card-Mock-Up-Vol20.jpg");
+    margin: 0%;
+}
+
+#image {
+    background-image: url("http://creativecrunk.com/wp-content/uploads/2015/01/Business-Card-Mock-Up-Vol20.jpg");
+    position: relative;
+}
+
+#form {
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+#title {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -23px;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+#button {
+    background-color: pink;
+    border-color: pink;
+    color: #343a40;
+}
+
+#header {
+    margin-top: 4%;
+    color: pink;
+}
+
+.card-body {
+    background-color: #343a40;
+    color: pink;
+}
+
+#title2 {
+    margin: 0;
+    color: #343a40;
+    filter: brightness(0.1);
+}
+
+#about {
+    /* border-radius: 25px; */
+    padding: 20px;
+    /* width: 200px; */
+    /* height: 150px; */
+    color: #343a40;
+    background-image: url("https://img.freepik.com/free-vector/girly-pink-background_53876-85148.jpg?size=626&ext=jpg");
+}
+
+#headpic {
+    float: right;
+    width: 15%;
+    /* position: absolute; */
+}
