@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" class="navtext" style="color:pink" id="back">Name and Title<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" class="navtext" style="color:pink" id="back"><img src="https://img.icons8.com/dusk/64/000000/employee-card.png">Name and Title<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" class="navtext" style="color:pink" id="2">Portfolio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" class="navtext" style="color:pink" id="2"><img src="https://img.icons8.com/dusk/64/000000/hand-drawn-star.png">Portfolio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" style="color:pink" id="3">Conatct</a>
+                        <a class="nav-link" href="#" style="color:pink" id="3"><img src="https://img.icons8.com/dusk/64/000000/faq.png">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -138,9 +138,35 @@
             </form>
         </div>
     </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal for New Portfolio Pop-up -->
+      <div class="modal fade"  data-backdrop="static" id="popUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hey There!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              A new & updated portfolio, made soley in React, is now live! Click to button in the pop-up to see my virtual resume!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">close</button>
+              <a href="google.com"><button type="button" class="btn btn-primary">View Site</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script>
+    $("#popUpModal").modal();
     $("#submit").on("click", function() {
         alert("Thank you! I hope we'll be in touch soon!");
     });
